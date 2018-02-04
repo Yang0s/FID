@@ -1,0 +1,135 @@
+/*Main Webpages Colors*/
+header{
+  background: #538EA6;
+}
+article, aside{
+  background: #F28C8C;
+}
+section{
+  background: #F2B8A2;
+}
+h3, h4, h5{
+  color: #944656;
+}
+h1, h2{
+  font-family: 'Pacifico', cursive; 
+  color: #0f3b4d;
+}
+a,p{
+  color:#f2f2f2;
+}
+footer{
+  color: #f2f2f2;
+  background: #2D5F73; 
+}
+
+nav{
+  background: #2D5F73;
+  color: #f2f2f2;
+  
+}
+/*Specific Webpage Coloring*/
+.page-prices article{
+  background: #4B8C8C;
+}
+
+.page-prices section{
+  background: #53B8A2;
+}
+
+.page-prices h3{
+  color: #F2D1B3;
+}
+
+.page-contact article{
+  background: #D97856;
+}
+
+.page-contact section{
+  background: #E39F5F;
+}
+
+.page-contact h3{
+  color: #F2D1B3;
+}
+
+/*Main Webpage Format*/
+header,
+nav,
+article,
+section,
+aside,
+footer,
+main {
+  margin: 0 1.5% 24px 1.5%;
+  border-radius: 8px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+}
+body{
+  background-image: url(images/bg.png);
+	background-attachment: fixed;
+}
+article {
+  padding: 20px;
+  margin-top: 20px;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding: 5px;
+  margin-top: 20px;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer img:hover {
+  background-color: #538EA6;
+}
+nav, h1, h2 {
+  text-align:center;
+}
+section,header{
+  padding:10px;
+  margin-bottom: 5px;
+}
+a{
+  text-decoration: none;
+  font-weight:bold;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+nav a:hover{
+  color:#F2D1B3;
+}
+/*Specific Webpage Format*/
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 3px;
+}
+.art {
+  margin-left: auto;
+  margin-right: auto;
+  width: 27%;
+  padding: 15px;
+  border-radius: 30px;
+  
+}
+.index-article {
+    float: left;
+    width: 63%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.artprice{
+  float: right;
+  width: 58%;
+  padding: 15px;
+  margin-top: 20px;
+}
