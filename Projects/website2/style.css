@@ -130,11 +130,6 @@ nav a:hover{
     padding: 20px;
     margin-top: 20px;
 }
-#page-index footer{
-  position:absolute;
-   bottom:0;
-   width:100%;
-}
 .artprice{
   float: right;
   width: 58%;
