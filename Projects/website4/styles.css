@@ -199,6 +199,15 @@ h3 ~ p {
               url(images/bg.png) no-repeat fixed;
   background-size: cover;
 }
+.sidebar li {
+  display: block;
+}
+.sidebar span {
+  opacity: 0;
+}
+.sidebar li:hover span {
+  opacity: 1;
+}
 .col-narrow {
     width: 25%;
     float: left;
