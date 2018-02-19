@@ -168,7 +168,7 @@ h3 ~ p {
   border-radius: 50%;
 }
 .thumb {
-  float:right;
+  float: right;
   position: relative;
 }
 .img-hr {
@@ -176,10 +176,10 @@ h3 ~ p {
   display: none;
   position:absolute;
   z-index: 90;
+  left: 200px;
+  top: -100px;
 }
-
 .thumb:hover .img-hr{
-  float:right;
   display: block;
 }
 /* Download button */
