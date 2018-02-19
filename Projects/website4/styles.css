@@ -64,7 +64,7 @@ header, footer {
 header {
   background: linear-gradient(rgba(141, 153, 174, 0.4), rgba(141, 153, 174, 0.2)),
   url(images/banner.jpg) no-repeat fixed;
-  padding-top: 30px;
+  padding-top: 45px;
   background-size: 130%;
 }
 header h1, header h2 {
