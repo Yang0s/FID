@@ -167,21 +167,6 @@ h3 ~ p {
   width: 100%;
   border-radius: 50%;
 }
-.thumb {
-  float: right;
-  position: relative;
-}
-.img-hr {
-  float:right;
-  display: none;
-  position:absolute;
-  z-index: 90;
-  left: 200px;
-  top: -100px;
-}
-.thumb:hover .img-hr{
-  display: block;
-}
 /* Download button */
 .btn {
   text-decoration: none;
@@ -216,4 +201,4 @@ h3 ~ p {
     width: 70%;
     float: left;
     padding-left: 20px;
-  }
+}
