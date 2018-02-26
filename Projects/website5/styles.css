@@ -100,7 +100,6 @@ footer a:hover {
   justify-content:space-around;
 }
 
-
 /* Navigation
 -------------------------*/
 nav {
@@ -213,10 +212,10 @@ h3 ~ p {
   header {
     text-align: center;
     background: linear-gradient(rgba(141, 153, 174, 0.4), rgba(141, 153, 174, 0.2)),
-    url(images/banner.jpg) no-repeat fixed;
+    url(images/banner2.jpg) no-repeat fixed;
     padding-top: 45px;
-    background-size:cover;
-    background-position: center center;
+    background-size:460%;
+    background-position: top center;
   }
   h1{
     font-size: 6rem;
