@@ -52,7 +52,7 @@ a:hover {
 .container-box {
   display: flex;
 }
-.price-wrap h2,.price-wrap h3{
+.price-wrap h2,.price-wrap h3,.price-wrap h4{
   text-align: center;
 }
 .uppercase {
