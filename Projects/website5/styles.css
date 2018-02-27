@@ -221,7 +221,8 @@ h3 ~ p {
     font-size: 6rem;
   }
   h2{
-    font-size: 2.3rem;
+    text-align:center;
+    font-size: 1.8rem;
   }
   .profile-img {
     display:none;
@@ -235,11 +236,16 @@ h3 ~ p {
   .artprice{
     width: 100%;
     height:700px;
-  }  
+  }
   .container-box {
     display: flex;
     flex-direction: column;
   }
+  h2{
+    text-align:center;
+    font-size: 2.3rem;
+  }
+
   .profile-img {
   display:none;
   }
