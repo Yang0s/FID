@@ -9,33 +9,34 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Yango's Workshop</title>
 </head>
 <body>
 
   <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
-      <div class="container">
-      <a class="navbar-brand" href="index.html">Yango's Workshop</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="catalog.html">Catalog <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+        <div class="container">
+        <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt="ContactPic" width="50" height="50"> Yango's Workshop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="catalog.html">Catalog<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     <section id="layout-hero" class="jumbotron jumbotron-fluid d-flex align-items-center mt-5">
             <div class="container text-center text-white">
               <div class="row justify-content-center">
@@ -61,7 +62,7 @@
                             <a data-toggle="modal" data-target="#siteModal" data-highres="images/senku.jpg">
                             <img class="img-fluid card-img-top" src="images/senku.jpg" alt="Senku">
                         </a>
-                        <div class="card-body">
+                        <div class="card-header">
                             <h4 class="card-title">Traditional Sketch</h4>
                         </div>
                       </div>
@@ -69,7 +70,7 @@
                         <a data-toggle="modal" data-target="#siteModal" data-highres="images/summersketch.jpg">
                             <img class="img-fluid card-img-top" src="images/summersketch.jpg" alt="Summer Girl Sketch">
                         </a>
-                        <div class="card-body">
+                        <div class="card-header">
                             <h3 class="card-title">Sketch</h3>
                             <h6 class="card-title">Traditional/Digital Sketch</h6>
                             <p class="card-text">$15 USD</p>
@@ -83,7 +84,7 @@
                     <a data-toggle="modal" data-target="#siteModal" data-highres="images/poppi.jpg">
                         <img class="img-fluid card-img-top" src="images/poppi.jpg" alt="Poppi">
                     </a>
-                    <div class="card-body">
+                    <div class="card-header">
                         <h4 class="card-title">Digital Sketch</h4>
                     </div>
                 </div>
@@ -101,7 +102,7 @@
                             <a data-toggle="modal" data-target="#siteModal" data-highres="images/icon.jpg">
                                 <img class="img-fluid card-img-top" src="images/icon.jpg" alt="Icon">
                             </a>
-                            <div class="card-body">
+                            <div class="card-header">
                                 <h3 class="card-title">Icons/Logos</h3>
                                 <h6 class="card-title">Digital Only</h6>
                                 <p class="card-text">$15 USD</p>
@@ -131,7 +132,7 @@
                     <a data-toggle="modal" data-target="#siteModal" data-highres="images/ai.png">
                         <img class="img-fluid card-img-top" src="images/ai.png" alt="Kizuna A.I">
                     </a>
-                        <div class="card-body">
+                        <div class="card-header">
                             <h3 class="card-title">Portrait</h3>
                             <h4 class="card-title">Digital Only</h4>
                                 <p class="card-text">$25 USD</p>
@@ -161,7 +162,7 @@
                                 <a data-toggle="modal" data-target="#siteModal" data-highres="images/yango.png">
                                     <img class="img-fluid card-img-top" src="images/yango.png" alt="Chibi">
                                 </a>
-                             <div class="card-body">
+                             <div class="card-header">
                                 <h3 class="card-title">Chibi</h3>
                                 <h4 class="card-title">Digital Only</h4>
                                     <p class="card-text">$20 USD</p>
@@ -190,7 +191,7 @@
                                     <a data-toggle="modal" data-target="#siteModal" data-highres="images/sakura.jpg">
                                         <img class="img-fluid card-img-top" src="images/sakura.jpg" alt="CardCaptor Sakura">
                                     </a>
-                                    <div class="card-body">
+                                    <div class="card-header">
                                             <h3 class="card-title">MidBody</h3>
                                             <h4 class="card-title">Digital Only</h4>
                                                 <p class="card-text">$35 USD</p>
@@ -220,7 +221,7 @@
                                         <a data-toggle="modal" data-target="#siteModal" data-highres="images/spacepatrolluluco.png" href="#">
                                             <img class="img-fluid card-img-top" src="images/spacepatrolluluco.png" alt="Space Patrol Luluco">
                                         </a>
-                                        <div class="card-body">
+                                        <div class="card-header">
                                                 <h3 class="card-title">FullBody</h3>
                                                 <h4 class="card-title">Digital Portrait Only</h4>
                                                     <p class="card-text">$50 USD</p>
@@ -242,55 +243,58 @@
     <div class="modal fade" id="siteModal">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
-                <img data-dismiss="modal" class="img-fluid" src="#" alt="Modal Photo">
+                <img data-dismiss="modal"  src="#" alt="Modal Photo">
               </div><!-- modal-content -->
             </div><!-- modal-dialog -->
           </div><!-- modal -->
 </main>
 
 
-  <!--Footer-->
-  <footer class="page-footer font-small text-light bg-info">
-        <div class="container">
-            <!--Grid row-->
-            <div class="row py-4 d-flex align-items-center">
+<!--Footer-->
+<footer class="page-footer font-small text-light bg-info py-5">
+      <div class="container">
+          <!--Grid row-->
+          <div class="row py-4 d-flex align-items-center">
 
-                <!--Grid column-->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                    <h6 class="mb-0 white-text">Get connected with me on social networks!</h6>
-                </div>
-                <!--Grid column-->
+              <!--Grid column-->
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <h6 class="mb-0 white-text">Get connected with me on social networks!</h6>
+              </div>
+              <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
-                    <a href="https://yangspirit.deviantart.com/" title="Deviantart" target="_blank">
-                        <i class="fab fa-deviantart fa-2x mr-lg-4"> </i>
-                    </a>
-                    <a href="https://www.twitch.tv/yang0s" title="Twitch" target="_blank">
-                        <i class="fab fa-twitch fa-2x mr-lg-4"> </i>
-                    </a>
-                    <a href="https://www.instagram.com/yangosart/" title="Instagram" target="_blank">
-                        <i class="fab fa-instagram fa-2x mr-lg-4"> </i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCSwwULXRE0LzOR2kk5xEuTg?view_as=subscriber" title="Youtube" target="_blank">
-                        <i class="fab fa-youtube fa-2x mr-lg-4"> </i>
-                    </a>
-                    <a href="https://twitter.com/YangosArt" title="Twitter" target="_blank">
-                        <i class="fab fa-twitter fa-2x mr-lg-4"> </i>
-                    </a>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-        </div>
-    <!-- Copyright-->
-    <div class="footer-copyright py-3 text-center">
-        © 2018 Copyright: Yangos
-    </div>
-    <!--/.Copyright -->
+              <!--Grid column-->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+                  <a href="https://yangspirit.deviantart.com/" title="Deviantart" target="_blank">
+                      <i class="fab fa-deviantart fa-2x mr-lg-4"> </i>
+                  </a>
+                  <a href="https://www.twitch.tv/yang0s" title="Twitch" target="_blank">
+                      <i class="fab fa-twitch fa-2x mr-lg-4"> </i>
+                  </a>
+                  <a href="https://www.instagram.com/yangosart/" title="Instagram" target="_blank">
+                      <i class="fab fa-instagram fa-2x mr-lg-4"> </i>
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCSwwULXRE0LzOR2kk5xEuTg?view_as=subscriber" title="Youtube" target="_blank">
+                      <i class="fab fa-youtube fa-2x mr-lg-4"> </i>
+                  </a>
+                  <a href="https://twitter.com/YangosArt" title="Twitter" target="_blank">
+                      <i class="fab fa-twitter fa-2x mr-lg-4"> </i>
+                  </a>
+              </div>
+              <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+      </div>
+
+  <!-- Copyright-->
+  <div class="footer-copyright py-3 text-center">
+      © 2018 Copyright: Yangos
+  </div>
+  <!--/.Copyright -->
 
 </footer>
 <!--/.Footer-->
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
